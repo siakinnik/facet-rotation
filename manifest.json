@@ -1,0 +1,10 @@
+{
+  "id": "rotation",
+  "name": { "en": "Screen rotation", "ru": "Поворот экрана" },
+  "version": "0.1.0-alpha",
+  "api": 3,
+  "exec": "rotation",
+  "permissions": ["display.rotation", "sensors", "background"],
+  "provides": ["display.rotation@1"],
+  "settings": { "title": { "en": "Screen rotation", "ru": "Поворот экрана" } }
+}
